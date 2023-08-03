@@ -1,0 +1,82 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply some basic styles to the body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #DBF9FC;
+  color: #333;
+}
+
+/* Style the container div */
+div {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(193, 193, 255);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+h3 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Style the links */
+a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 200px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #218838;
+}
+
+a:nth-child(2n) {
+  background-color: #17a2b8;
+}
+
+a:nth-child(2n):hover {
+  background-color: #138496;
+}
+
+a:nth-child(3n) {
+  background-color: #ffc107;
+}
+
+a:nth-child(3n):hover {
+  background-color: #e0a800;
+}
+
+a:last-child {
+  background-color: #dc3545;
+}
+
+a:last-child:hover {
+  background-color: #c82333;
+}
+
+/* Box class for the new box element */
+.box {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}

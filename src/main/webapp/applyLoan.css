@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the header */
+h3 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Define the gradient color background */
+body {
+  background: linear-gradient(to bottom right, rgb(142, 236, 253), rgb(255, 255, 255));
+}

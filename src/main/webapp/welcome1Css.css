@@ -1,0 +1,77 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the header */
+h1 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Define the gradient color background */
+body {
+  background: linear-gradient(to bottom right, rgb(142, 236, 253), rgb(255, 255, 255));
+}
+
+
+/* Apply some basic styles to the body */
+
+
+/* Style the container div */
+div {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(255, 222, 206);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+
+
+/* Style the links */
+a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 200px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+
+/* Center the links inside the container div */
+div a {
+  width: 100%;
+}
+
+/* Add some spacing between the links */
+div a + a {
+  margin-top: 10px;
+}
+
+/* Add background color to the div box */
+div {
+  background-color: rgb(252, 186, 250);
+}

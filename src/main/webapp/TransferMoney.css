@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+/* Define the animation */
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the form */
+form {
+  animation: slideInFromLeft 1s ease-in-out;
+}
+
+/* Define the gradient color background */
+body {
+  background: linear-gradient(to bottom right, rgb(142, 236, 253), rgb(255, 255, 255));
+}
